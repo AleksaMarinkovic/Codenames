@@ -1,0 +1,15 @@
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\bin\Debug\Keycards.exe.config
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\bin\Debug\Keycards.exe
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\bin\Debug\Keycards.pdb
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.csprojAssemblyReference.cache
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\MainWindow.g.cs
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\App.g.cs
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards_MarkupCompile.cache
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards_MarkupCompile.lref
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\MainWindow.baml
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.g.resources
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.Properties.Resources.resources
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.csproj.GenerateResource.cache
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.exe
+C:\Users\Aleksa\Desktop\New folder (2)\CodenamesKeycards\Keycards\Keycards\obj\Debug\Keycards.pdb
