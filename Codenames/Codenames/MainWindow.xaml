@@ -1,0 +1,294 @@
+﻿<Window x:Class="Codenames.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Codenames"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="GrayText">
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontFamily" Value="Times New Roman" />
+            <Setter Property="Height" Value="22" />
+            <Setter Property="Width" Value="95" />
+            <Setter Property="Margin" Value="0,0,50,40"/>
+            <Setter Property="Foreground" Value="Gray"/>
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="NormalText">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="Times New Roman" />
+            <Setter Property="Height" Value="22" />
+            <Setter Property="Width" Value="120" />
+            <Setter Property="Margin" Value="18,0,0,12"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="0001.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+
+        
+        <TextBlock Name="TextBlockGray_0_0" Text="Sample" Grid.Column="0" Grid.Row="0" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_0_0" Text="Sample" Grid.Column="0" Grid.Row="0"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_0_0" Tag="0" Fill="Blue" Opacity="0" Grid.Column="0" Grid.Row="0" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+        
+        <TextBlock Name="TextBlockGray_0_1" Text="Sample" Grid.Column="0" Grid.Row="1" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_0_1" Text="Sample" Grid.Column="0" Grid.Row="1"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_0_1"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="0" Grid.Row="1"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+        
+        
+        <TextBlock Name="TextBlockGray_0_2" Text="Sample" Grid.Column="0" Grid.Row="2" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_0_2" Text="Sample" Grid.Column="0" Grid.Row="2"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_0_2"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="0" Grid.Row="2"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_0_3" Text="Sample" Grid.Column="0" Grid.Row="3" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_0_3" Text="Sample" Grid.Column="0" Grid.Row="3"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_0_3"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="0" Grid.Row="3"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+            
+        <TextBlock Name="TextBlockGray_0_4" Text="Sample" Grid.Column="0" Grid.Row="4" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_0_4" Text="Sample" Grid.Column="0" Grid.Row="4"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_0_4"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="0" Grid.Row="4"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+
+
+        <TextBlock Name="TextBlockGray_1_0" Text="Sample" Grid.Column="1" Grid.Row="0" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_1_0" Text="Sample" Grid.Column="1" Grid.Row="0"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_1_0"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="1" Grid.Row="0"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+        
+        <TextBlock Name="TextBlockGray_1_1" Text="Sample" Grid.Column="1" Grid.Row="1" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_1_1" Text="Sample" Grid.Column="1" Grid.Row="1"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_1_1"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="1" Grid.Row="1"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+        
+        <TextBlock Name="TextBlockGray_1_2" Text="Sample" Grid.Column="1" Grid.Row="2" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_1_2" Text="Sample" Grid.Column="1" Grid.Row="2"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_1_2"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="1" Grid.Row="2"  MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+        
+        <TextBlock Name="TextBlockGray_1_3" Text="Sample" Grid.Column="1" Grid.Row="3" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_1_3" Text="Sample" Grid.Column="1" Grid.Row="3"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_1_3"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="1" Grid.Row="3" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_1_4" Text="Sample" Grid.Column="1" Grid.Row="4" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_1_4" Text="Sample" Grid.Column="1" Grid.Row="4"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_1_4"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="1" Grid.Row="4" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+
+
+
+        <TextBlock Name="TextBlockGray_2_0" Text="Sample" Grid.Column="2" Grid.Row="0" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_2_0" Text="Sample" Grid.Column="2" Grid.Row="0"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_2_0"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="2" Grid.Row="0" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_2_1" Text="Sample" Grid.Column="2" Grid.Row="1" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_2_1" Text="Sample" Grid.Column="2" Grid.Row="1"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_2_1"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="2" Grid.Row="1" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_2_2" Text="Sample" Grid.Column="2" Grid.Row="2" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_2_2" Text="Sample" Grid.Column="2" Grid.Row="2"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_2_2"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="2" Grid.Row="2" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_2_3" Text="Sample" Grid.Column="2" Grid.Row="3" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_2_3" Text="Sample" Grid.Column="2" Grid.Row="3"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_2_3"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="2" Grid.Row="3" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_2_4" Text="Sample" Grid.Column="2" Grid.Row="4" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_2_4" Text="Sample" Grid.Column="2" Grid.Row="4"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_2_4"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="2" Grid.Row="4" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+
+
+
+
+        <TextBlock Name="TextBlockGray_3_0" Text="Sample" Grid.Column="3" Grid.Row="0" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_3_0" Text="Sample" Grid.Column="3" Grid.Row="0"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_3_0"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="3" Grid.Row="0" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_3_1" Text="Sample" Grid.Column="3" Grid.Row="1" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_3_1" Text="Sample" Grid.Column="3" Grid.Row="1"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_3_1"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="3" Grid.Row="1" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_3_2" Text="Sample" Grid.Column="3" Grid.Row="2" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_3_2" Text="Sample" Grid.Column="3" Grid.Row="2"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_3_2" Tag="0" Fill="Blue" Opacity="0" Grid.Column="3" Grid.Row="2" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_3_3" Text="Sample" Grid.Column="3" Grid.Row="3" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_3_3" Text="Sample" Grid.Column="3" Grid.Row="3"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_3_3" Tag="0" Fill="Blue" Opacity="0" Grid.Column="3" Grid.Row="3" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_3_4" Text="Sample" Grid.Column="3" Grid.Row="4" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_3_4" Text="Sample" Grid.Column="3" Grid.Row="4"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_3_4"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="3" Grid.Row="4" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+
+
+
+
+
+        <TextBlock Name="TextBlockGray_4_0" Text="Sample" Grid.Column="4" Grid.Row="0" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_4_0" Text="Sample" Grid.Column="4" Grid.Row="0"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_4_0"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="4" Grid.Row="0" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_4_1" Text="Sample" Grid.Column="4" Grid.Row="1" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_4_1" Text="Sample" Grid.Column="4" Grid.Row="1"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_4_1" Tag="0" Fill="Blue" Opacity="0" Grid.Column="4" Grid.Row="1" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_4_2" Text="Sample" Grid.Column="4" Grid.Row="2" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_4_2" Text="Sample" Grid.Column="4" Grid.Row="2"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_4_2"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="4" Grid.Row="2" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_4_3" Text="Sample" Grid.Column="4" Grid.Row="3" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_4_3" Text="Sample" Grid.Column="4" Grid.Row="3"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_4_3"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="4" Grid.Row="3" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+        <TextBlock Name="TextBlockGray_4_4" Text="Sample" Grid.Column="4" Grid.Row="4" Style="{StaticResource GrayText}">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="180"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Name="TextBlockDark_4_4" Text="Sample" Grid.Column="4" Grid.Row="4"  Style="{StaticResource NormalText}"/>
+        <Rectangle Name="Rectangle_4_4"  Tag="0" Fill="Blue" Opacity="0" Grid.Column="4" Grid.Row="4" MouseLeftButtonDown="MouseLeftButtonDown" MouseRightButtonDown="MouseRightButtonDown">
+        </Rectangle>
+
+    </Grid>
+</Window>
